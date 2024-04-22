@@ -1,0 +1,21 @@
+<svg width="1920" height="85" viewBox="0 0 1920 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="37" width="1920" height="48" fill="#00223D"/>
+<mask id="mask0_2944_31799" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="7" width="1920" height="36">
+<rect width="1920" height="36" transform="matrix(1 0 0 -1 0 43)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_2944_31799)">
+<path d="M0.240234 27.6484L1920.76 21.3536" stroke="#00223D" stroke-width="7.14" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<mask id="mask1_2944_31799" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="18" width="1920" height="36">
+<rect width="1920" height="36" transform="matrix(1 0 0 -1 0 54)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_2944_31799)">
+<path d="M0.234375 33.6973L1920.77 37.302" stroke="#00223D" stroke-width="7.14" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<mask id="mask2_2944_31799" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="54">
+<rect width="1920" height="54" transform="matrix(1 0 0 -1 0 54)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask2_2944_31799)">
+<path d="M0.884766 8.93164L1920.11 62.1298" stroke="#00223D" stroke-width="7.14" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
