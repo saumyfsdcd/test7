@@ -9,7 +9,7 @@ const path = require('path');
 
 const app = express();
 const stripe = require("stripe")(process.env.STRIPE_PRIVATE)
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
 express.urlencoded({extended: true})
@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-app.get('/c', (req,res)=>{
-    res.sendFile(path.join(__dirname,'public', 'refund.html'))
+app.get('/co', (req,res)=>{
+    res.send("hey wrlcome")
 })
 
 const storeitems= [
