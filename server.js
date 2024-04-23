@@ -62,7 +62,8 @@ app.post('/create-checkout-session', async (req, res) => {
         // automatic_tax: {enabled: true},
     });
 
-    return res.json({ url: session.url });
+    // return res.json({ url: session.url });
+    return res.send("found")
 });
 
 
