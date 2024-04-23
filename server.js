@@ -16,6 +16,7 @@ express.urlencoded({extended: true})
 
 // Define routes
 app.get('/', (req, res) => {
+    console.log("node js is runnign")
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
