@@ -20,6 +20,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
+app.get('/c', (req,res)=>{
+    res.sendFile(path.join(__dirname,'public', 'refund.html'))
+})
+
 const storeitems= [
     [1, {price: 19900, name: "Personal Use"}],
     [2, {price: 24900, name: "Proffesional"}],
