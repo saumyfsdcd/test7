@@ -2,6 +2,7 @@
 const emailjs = import('emailjs')
 
 require('dotenv').config({ path: './.env' });
+const exp = require('constants');
 const express = require('express');
 const { url } = require('inspector');
 const path = require('path');
@@ -11,6 +12,7 @@ const stripe = require("stripe")(process.env.STRIPE_PRIVATE)
 const PORT = process.env.PORT || 3000;
 // Serve static files from the "public" directory
 app.use(express.static(path.join(__dirname, 'public')));
+express.urlencoded({extended: true})
 
 // Define routes
 app.get('/', (req, res) => {
